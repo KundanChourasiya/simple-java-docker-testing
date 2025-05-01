@@ -17,7 +17,7 @@ LABEL description="A simple Java application"
 # create a folder where the app code will be stored
 WORKDIR /app
 
-# Copy the source code from your Host machine to your contaiiner
+# Copy the source code from your Host machine to your container
 COPY src/Main.java /app/Main.java
 
 # Compile the application code
